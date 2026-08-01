@@ -4,142 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DayCoach — Small daily habits, lifelong change</title>
-    <meta name="description" content="DayCoach helps you achieve your goals and build new habits for a better life, one day at a time.">
+    <meta name="description" content="DayCoach helps you achieve your goals and build new habits for a better life, one day at a time. iOS app, corporate coaching and retreats.">
     <link rel="icon" type="image/png" href="icon.png">
-    <style>
-        :root {
-            --day-yellow: #E6B927;
-            --day-yellow-soft: #F6E3A6;
-            --ink: #2b2b2b;
-            --muted: #6d6d6d;
-            --paper: #ffffff;
-        }
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            font-family: 'Century Gothic', 'Futura', 'Avenir Next', 'Segoe UI', sans-serif;
-            color: var(--ink);
-            background: linear-gradient(180deg, #fffdf6 0%, #ffffff 40%);
-            -webkit-font-smoothing: antialiased;
-        }
-        .wrap { max-width: 960px; margin: 0 auto; padding: 48px 24px; text-align: center; }
-
-        /* Hero */
-        .app-icon {
-            width: 132px; height: 132px;
-            border-radius: 28px;
-            box-shadow: 0 14px 34px rgba(230, 185, 39, 0.35);
-            margin-bottom: 22px;
-        }
-        h1 {
-            font-size: 2.9rem;
-            letter-spacing: 0.5px;
-            margin: 0 0 6px 0;
-            font-weight: 700;
-        }
-        h1 .infinity { color: var(--day-yellow); }
-        .tagline {
-            font-size: 1.35rem;
-            font-weight: 400;
-            margin: 0 auto 8px auto;
-            max-width: 620px;
-            line-height: 1.4;
-        }
-        .subtag {
-            font-size: 1.05rem;
-            color: var(--muted);
-            max-width: 560px;
-            margin: 0 auto 32px auto;
-            line-height: 1.5;
-        }
-        .store-btn { display: inline-block; margin-bottom: 8px; transition: transform .2s ease; }
-        .store-btn:hover { transform: translateY(-2px); }
-        .store-btn img { width: 200px; height: auto; }
-
-        /* Feature row */
-        .features {
-            display: flex;
-            gap: 24px;
-            justify-content: center;
-            margin: 56px 0 24px 0;
-            flex-wrap: wrap;
-        }
-        .feature {
-            flex: 1 1 240px;
-            max-width: 280px;
-            background: #fff;
-            border: 1px solid #f0e7c9;
-            border-radius: 16px;
-            padding: 26px 22px;
-            text-align: left;
-            box-shadow: 0 6px 18px rgba(0,0,0,0.04);
-        }
-        .feature .dot {
-            width: 40px; height: 40px; border-radius: 50%;
-            background: var(--day-yellow-soft);
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1.3rem; margin-bottom: 14px;
-        }
-        .feature h3 { margin: 0 0 8px 0; font-size: 1.15rem; }
-        .feature p { margin: 0; color: var(--muted); font-size: 0.98rem; line-height: 1.5; }
-
-        /* Footer */
-        footer {
-            margin-top: 56px;
-            padding-top: 28px;
-            border-top: 1px solid #eee;
-            font-size: 0.92rem;
-            color: var(--muted);
-        }
-        footer a { color: var(--ink); text-decoration: none; font-weight: 600; margin: 0 10px; }
-        footer a:hover { text-decoration: underline; }
-        .copyright { margin-top: 18px; font-size: 0.82rem; color: #999; }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 2.2rem; }
-            .tagline { font-size: 1.15rem; }
-            .wrap { padding: 36px 18px; }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrap">
-        <header>
-            <img src="icon.png" alt="DayCoach app icon" class="app-icon">
-            <h1>Day<span class="infinity">Coach</span></h1>
-            <p class="tagline">Small daily habit formation creates lifelong change.</p>
-            <p class="subtag">Helping you achieve your goals and build new habits for a better life, one day at a time.</p>
-            <a href="https://apps.apple.com/au/app/daycoach/id1490229501" class="store-btn" target="_blank" rel="noopener">
-                <img src="appstore.png" alt="Download DayCoach on the App Store">
-            </a>
-        </header>
+    <nav class="nav">
+        <a href="index.html" class="nav-brand"><img src="icon.png" alt="DayCoach" class="nav-icon"><img src="wordmark-dark.png" alt="DayCoach" class="nav-wordmark"></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ios-app.html">iOS App</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </nav>
 
-        <section class="features">
-            <div class="feature">
-                <div class="dot">✓</div>
+    <header class="wrap center">
+        <img src="icon.png" alt="DayCoach app icon" class="app-icon">
+        <h1 class="hero-wordmark-wrap"><img src="wordmark-light.png" alt="DayCoach" class="hero-wordmark"></h1>
+        <p class="tagline">Helping you achieve your goals and build new habits for a better life, one day at a time.</p>
+        <p class="subtag">We believe small daily habit formation creates lifelong change.</p>
+        <a href="mailto:admin@morecompany.com.au?subject=DayCoach%20Free%20Consultation" class="btn">Coach Me</a>
+    </header>
+
+    <section class="section">
+        <h2>Work With Us</h2>
+        <p class="lead">Contact us for a free consultation. We will discuss your particular goals and needs, and talk about how we can tailor a program just for you as an individual, or for your entire team.</p>
+        <div class="cards">
+            <div class="card">
+                <div class="dot">&#10004;</div>
                 <h3>One swipe a day</h3>
                 <p>Tick off each habit as you go. Simple, quick, and built into your daily rhythm.</p>
             </div>
-            <div class="feature">
-                <div class="dot">∞</div>
+            <div class="card">
+                <div class="dot">&#8734;</div>
                 <h3>Build real streaks</h3>
                 <p>Watch your streak climb and earn a badge every 21 days of consistency.</p>
             </div>
-            <div class="feature">
-                <div class="dot">☺</div>
+            <div class="card">
+                <div class="dot">&#9786;</div>
                 <h3>Grow one habit at a time</h3>
                 <p>Earn the right to track more as you prove your consistency, so you never take on too much at once.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <nav>
-                <a href="privacy-policy.html">Privacy Policy</a>
-                <a href="mailto:admin@morecompany.com.au">Support</a>
-                <a href="https://apps.apple.com/au/app/daycoach/id1490229501" target="_blank" rel="noopener">App Store</a>
-            </nav>
-            <p class="copyright">&copy; 2020–2026 More Company. DayCoach is a trademark of More Company.</p>
-        </footer>
-    </div>
+    <section class="cards">
+        <a href="ios-app.html" class="card">
+            <div class="dot">∞</div>
+            <h3>iOS App</h3>
+            <p>Now on the App Store. Build habits and track your streaks, one day at a time.</p>
+        </a>
+        <a href="mailto:admin@morecompany.com.au?subject=Corporate%20Coaching%20Enquiry" class="card">
+            <div class="dot">👥</div>
+            <h3>Corporate Coaching</h3>
+            <p>Small and large teams. Programs tailored to your organisation's goals.</p>
+        </a>
+        <a href="mailto:admin@morecompany.com.au?subject=Retreat%20Enquiry" class="card">
+            <div class="dot">🌿</div>
+            <h3>Retreats</h3>
+            <p>Customised to your needs, designed around the goals you want to reach.</p>
+        </a>
+    </section>
+
+    <section class="contact">
+        <h2>Reach out now!</h2>
+        <p>Email us and we'll get back to you about a free consultation.</p>
+        <p style="margin:18px 0;"><a href="mailto:admin@morecompany.com.au?subject=DayCoach%20Enquiry" class="btn">Email DayCoach</a></p>
+        <p><strong>admin@morecompany.com.au</strong></p>
+        <p>Hours: Monday to Friday, 7am to 9pm</p>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ios-app.html">iOS App</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </nav>
+        <p class="copyright">&copy; 2020–2026 More Company. DayCoach is a trademark of More Company.</p>
+    </footer>
 </body>
 </html>
