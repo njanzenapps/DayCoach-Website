@@ -155,7 +155,7 @@ header.center {
     margin: 0;
     background-image:
         linear-gradient(rgba(24,20,10,0.55), rgba(24,20,10,0.68)),
-        url('hero-running.jpg');
+        url('herorunning.jpg');
     background-size: cover;
     background-position: center;
     padding: 72px 24px 78px;
